@@ -64,7 +64,6 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "material-icon-theme",
-  "cSpell.language": "en,pt,pt_BR",
-  "textWrap": "on"
+  "cSpell.language": "en,pt,pt_BR"
   
 }
