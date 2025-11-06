@@ -30,7 +30,7 @@ if button("Calcular raízes"):
         if delta < 0:
             warning("A equação não possui raízes reais")
         elif delta == 0:
-            raiz = round((-b + calculo(delta)), ndigits=3) # Delta milagrosamente
+            raiz = round((-b + calculo(delta)), ndigits=3)
             success(f"A equação possui uma raíz real: {raiz}")
         else:
             raiz1 = round((-b + calculo(delta)), ndigits=3)
