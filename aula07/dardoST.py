@@ -44,12 +44,9 @@ else:
 # Saída de dados
 if st.button("Apresentar dados de lançamento"):
     if dardo_vencedor == "Empate":
-        st.warning("Houve um empate entre os dardos lançados.")
+        st.warning("Houve um empate sem vencedores.")
         st.write(f"As distâncias máximas foram: {maior_distancia}")
     else:
         st.success(f"O dardo com a maior distância é {dardo_vencedor} com {maior_distancia}")
         grafico(dardo1, dardo2, dardo3)
         st.balloons()
-
-
-# Copilot, não sei se voc
