@@ -36,7 +36,9 @@ if button("Calcular raízes"):
             raiz1 = round((-b + calculo(delta)), ndigits=3)
             raiz2 = round((-b - calculo(delta)), ndigits=3)
             success(f"As raízes da equação são: Raiz 1: {raiz1} Raiz 2: {raiz2} ")
-    except:
+    except ValueError:
         error("Por favor, insira valores válidos para a, b e c.")
+    except ZeroDivisionError:
+        error("O valor de 'a' não pode ser zero em uma equação de segundo grau.")
 
 write("O valor de delta é ", delta)
