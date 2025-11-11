@@ -1,4 +1,10 @@
 import streamlit as st
+def porcentagem(cobaia):
+    return (cobaia / total_cobaias) * 100
+def qtd(total):
+    total += quantidade
+    return total
+
 
 # Problema experiências com cobaias
 st.title("Laboratório de Cobaias")
@@ -16,18 +22,21 @@ for i in range(n):
     tipo = st.selectbox(f"Experimento {i+1} - Tipo de cobaia (C:Coelho, R:Rato, S:Sapo)", options=['C', 'R', 'S'])
 
     # Processamento de dados
-    total_cobaias += quantidade
+
+    # total_cobaias += quantidade
+    total_cobaias = qtd(total_cobaias)
+    
     if tipo == 'C':
-        total_coelhos += quantidade
+        total_coelhos = qtd(total_coelhos)
     elif tipo == 'R':
-        total_ratos += quantidade
+        total_ratos = qtd(total_ratos)
     elif tipo == 'S':
-        total_sapos += quantidade
+        total_sapos = qtd(total_sapos)
 
 if total_cobaias > 0:
-    percentual_coelhos = (total_coelhos / total_cobaias) * 100
-    percentual_ratos = (total_ratos / total_cobaias) * 100
-    percentual_sapos = (total_sapos / total_cobaias) * 100
+    percentual_coelhos = porcentagem(total_coelhos)
+    percentual_ratos = porcentagem(total_ratos)
+    percentual_sapos = porcentagem(total_sapos)
 else:
     percentual_coelhos = percentual_ratos = percentual_sapos = 0
 
