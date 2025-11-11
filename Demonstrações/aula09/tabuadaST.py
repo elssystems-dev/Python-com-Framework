@@ -8,8 +8,6 @@ multiplicador_max = 10
 i = multiplicador_max
 
 numero_digitado = ""
-if numero_digitado == "":
-    numero_digitado = None
 
 # Entrada de dados
 try:
@@ -31,8 +29,7 @@ try:
         |  {i}                | {numero_digitado * (i)}                      |    
         """)
 except ValueError:
-    if numero_digitado == None:
-        st.warning("Digite algum número!")
-        numero_digitado = ""
-    elif numero_digitado:
-        st.error("Digite somente algarismos válidos.")
+    if numero_digitado is None:
+        st.error("Por favor, digite números inteiros.")
+    else:
+        st.warning("Digite algum valor!")
