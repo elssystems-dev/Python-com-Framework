@@ -1,10 +1,10 @@
 import streamlit as st
+
 def porcentagem(cobaia):
     return (cobaia / total_cobaias) * 100
 def qtd(total):
     total += quantidade
     return total
-
 
 # Problema experiências com cobaias
 st.title("Laboratório de Cobaias")
@@ -25,7 +25,7 @@ for i in range(n):
 
     # total_cobaias += quantidade
     total_cobaias = qtd(total_cobaias)
-    
+
     if tipo == 'C':
         total_coelhos = qtd(total_coelhos)
     elif tipo == 'R':
