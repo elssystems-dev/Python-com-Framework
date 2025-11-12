@@ -31,7 +31,7 @@ A estrutura de seleção não existia no Python no passado, sendo implementada s
 </figure>
 
 ## Vetores em Python 📋
-- Listas: Uma coleção ordenada mutável e permite membros duplicados
-- Tuplas: Uma coleção ordenada imutável e permite membros duplicados
-- Dicionários: Uma coleção ordenada por chaves mutável e **não** permite chaves duplicadas
-- Conjuntos: Uma coleção **não** ordenada, **não** permite membros duplicados, mas mutável
+- Listas: Uma coleção ordenada mutável e permite membros duplicados '[]'
+- Tuplas: Uma coleção ordenada imutável e permite membros duplicados '()'
+- Dicionários: Uma coleção ordenada por chaves mutável e **não** permite chaves duplicadas '{}'
+- Conjuntos: Uma coleção **não** ordenada, **não** permite membros duplicados, mas mutável '{}'
