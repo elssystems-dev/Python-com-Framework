@@ -29,3 +29,9 @@ A estrutura de seleção não existia no Python no passado, sendo implementada s
 <img src="https://martinlwx.github.io/img/program_layout_in_memory.png" alt="imagem stack e heap" style="width: 500px; border: solid black;">
 <figcaption style="margin-top: 10px;">Partes da memórias do computador</figcaption>
 </figure>
+
+## Vetores em Python 📋
+- Listas: Uma coleção ordenada mutável e permite membros duplicados
+- Tuplas: Uma coleção ordenada imutável e permite membros duplicados
+- Dicionários: Uma coleção ordenada por chaves mutável e **não** permite chaves duplicadas
+- Conjuntos: Uma coleção **não** ordenada, **não** permite membros duplicados, mas mutável
