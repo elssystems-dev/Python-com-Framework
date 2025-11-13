@@ -65,5 +65,4 @@
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "material-icon-theme",
   "cSpell.language": "en,pt,pt_BR"
-  
 }
