@@ -67,7 +67,7 @@ media = np.mean(vetor)
 # Resultados
 resultado_layout = [
     [sg.Text("Elementos do vetor")],
-    [sg.Text(",".join(map(str,vetor)))],
+    [sg.Text(",".join(map(str,vetor)))], 
     [sg.Text(f"Soma dos elementos = {soma}")],
     [sg.Text(f"Media dos elementos = {media}")],
     [sg.Button("Fechar")]
