@@ -1,8 +1,12 @@
 class calculadoraCirculo:
+    #Atributo da classe
     PI = 3.14
 
-    def circunferencia(self, raio) -> float:
-        return 2 * self.PI * raio
+    #Métodos estáticos da classe
+    @staticmethod
+    def circunferencia(raio) -> float:
+        return 2 * calculadoraCirculo.PI * raio
     
-    def area(self, raio) -> float:
-        return self.PI * (raio ** 2)
+    @staticmethod
+    def area(raio) -> float:
+        return calculadoraCirculo.PI * (raio ** 2)
