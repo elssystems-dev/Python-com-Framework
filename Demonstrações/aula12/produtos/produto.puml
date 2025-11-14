@@ -1,4 +1,4 @@
-@startuml
+@startuml Produto
 class Produto {
     + nome: str
     + preco: float
