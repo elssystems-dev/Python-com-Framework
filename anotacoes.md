@@ -35,3 +35,19 @@ A estrutura de seleção não existia no Python no passado, sendo implementada s
 - Tuplas: Uma coleção ordenada imutável e permite membros duplicados '()'
 - Dicionários: Uma coleção ordenada por chaves mutável e **não** permite chaves duplicadas '{}'
 - Conjuntos: Uma coleção **não** ordenada, **não** permite membros duplicados, mas mutável '{}'
+
+## Programação Orientada a Objetos
+
+Siglas:
+- POO (Programação Orientada a Objetos)
+- OOP (Object Oriented Programming)
+
+Até o momento, o curso estava abordando a programação "Up Down" - A maneira tradicional de programar.
+
+Existe aproximadamente há 30 anos, no entanto, não é o modelo mais recente.
+
+**Pilares da OOP**
+- Polimorfismo
+- Herança
+- Abstração
+- Encapsulamento
