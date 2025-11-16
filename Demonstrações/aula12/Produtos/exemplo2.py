@@ -1,6 +1,6 @@
 import produtoOOP as p # Importar o módulo
 
- # Instanciar o objeto
+# Instanciar o objeto
 p1 = p.Produto()
 
 # Entrada de dados
