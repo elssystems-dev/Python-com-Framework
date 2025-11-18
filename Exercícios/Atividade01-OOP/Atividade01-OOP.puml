@@ -1,0 +1,15 @@
+@startuml Atividade 01
+
+class Pessoa {
+    + nome : str
+    + idade : int
+    + eh_mais_velha(self, idade):bool
+}
+
+class Funcionario {
+    + nome : str
+    + salario : float
+    + salario_medio(self, outro_salario):float
+}
+
+@enduml
