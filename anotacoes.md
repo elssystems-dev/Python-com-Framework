@@ -51,3 +51,13 @@ Existe aproximadamente há 30 anos, no entanto, não é o modelo mais recente.
 - Herança
 - Abstração
 - Encapsulamento
+
+## Herança - Sintaxe em Python
+
+``` Python
+class Pai:
+    def __init__
+class Filho(Pai):
+    def __init__(self):
+        super().__init__
+```
