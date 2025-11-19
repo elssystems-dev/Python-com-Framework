@@ -8,6 +8,7 @@ class Retangulo:
     __altura:float
 
     # 2º Membro - Propriedades
+
     # Propriedade da base
     @property # Pegar o valor do atributo
     def base(self):
@@ -17,6 +18,8 @@ class Retangulo:
         if base < 0:
             base = 0
         self.__base = base
+
+    # Propriedade da altura
     @property # Pegar o valor do atributo
     def altura(self):
         return self.__altura
@@ -51,9 +54,12 @@ class Retangulo:
 # ----------- Início programa principal ----------- 
 
 # Entrada de dados
-base = float(input("Digite a base do retângulo: "))
-altura = float(input("Digite a altura do retângulo: "))
-# Instanciar um objeto do tipo retângulo
-retangulo = Retangulo(base, altura)
-# Saída de dados
-print(retangulo.dadosRetangulo())
+try:
+    base = float(input("Digite a base do retângulo: "))
+    altura = float(input("Digite a altura do retângulo: "))
+    # Instanciar um objeto do tipo retângulo
+    retangulo = Retangulo(base, altura)
+    # Saída de dados
+    print(retangulo.dadosRetangulo())
+except ValueError:
+    print("Digite um valor numérico para prosseguir.")
