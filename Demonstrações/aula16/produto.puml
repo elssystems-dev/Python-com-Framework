@@ -10,13 +10,13 @@ class Produto {
 
 class Software {
     - licenca: str
-    + operacao(): str
 }
 
 class Hardware {
     - garantia: int
-    + operacao(): str
 }
+
+left to right direction
 
 Produto <--(Software, Hardware)
 @enduml
