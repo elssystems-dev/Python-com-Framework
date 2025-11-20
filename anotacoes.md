@@ -56,8 +56,12 @@ Existe aproximadamente há 30 anos, no entanto, não é o modelo mais recente.
 
 ``` Python
 class Pai:
-    def __init__
+    def __init__(self):
+        pass
 class Filho(Pai):
     def __init__(self):
-        super().__init__
+        super().__init__()
+class Neto(Filho):
+    def __init__(self):
+        super().__init__()
 ```
