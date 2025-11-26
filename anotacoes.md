@@ -52,7 +52,7 @@ Existe aproximadamente há 30 anos, no entanto, não é o modelo mais recente.
 - Abstração
 - Encapsulamento
 
-## Herança - Sintaxe em Python
+### Herança - Sintaxe em Python
 
 ``` Python
 class Pai:
@@ -65,3 +65,11 @@ class Neto(Filho):
     def __init__(self):
         super().__init__()
 ```
+
+## Django
+
+## Comandos PowerShell p/ Django
+- django-admin --help
+- django-admin startproject &lt;nome&gt; . 
+- python manage.py runserver
+- python manage.py startapp nome
