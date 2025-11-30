@@ -1,0 +1,21 @@
+@startuml Banco
+
+class Contribuinte {
+    - nome : str
+    - rendaAtual : float
+}
+
+class Fisico {
+    - gastosSaude : float
+    + definicaoImposto(rendaAtual, gastosSaude) : float
+}
+
+class Juridico {
+    - numeroFuncionarios : int
+    + definicaoImposto(rendaAtual, numeroFuncionarios)
+}
+
+Contribuinte <|-- Fisico
+Contribuinte <|-- Juridico
+
+@enduml

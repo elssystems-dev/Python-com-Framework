@@ -30,9 +30,18 @@ def main():
 
         colaboradores.append(colaborador)
 
-    for j in range(quantidadeColaboradores):
-        print(colaboradores[j])
-
+    print("\n===== RESULTADOS =====\n")
+    for pessoa in colaboradores:
+        print(f"Contribuinte: {pessoa._nome}")
+        print(f"Renda Atual: R${pessoa._rendaAtual:.2f}")
+        # Tenta usar gastosSaude: se existir, é PF
+        try:
+            print(f"Gastos com Saúde: R${pessoa._gastosSaude:.2f}")
+            print(pessoa.definicaoImposto(pessoa._rendaAtual, pessoa._gastosSaude))
+        except:
+            # Se não tiver gastosSaude, é PJ
+            print(f"Número de Funcionários: {pessoa._numeroFuncionarios}")
+            print(pessoa.definicaoImposto(pessoa._rendaAtual, pessoa._numeroFuncionarios))
 
 
 if __name__ == "__main__":

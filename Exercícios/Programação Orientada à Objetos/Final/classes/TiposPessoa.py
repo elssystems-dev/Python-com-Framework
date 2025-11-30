@@ -47,9 +47,9 @@ class Fisico(Contribuinte):
         
     def definicaoImposto(self, rendaAtual, gastosSaude) -> float:
         if rendaAtual < 20000.00:
-            imposto = (rendaAtual * 0.15) - rendaAtual
+            imposto = (rendaAtual * 0.15)
         else:
-            imposto = (rendaAtual * 0.25) - rendaAtual
+            imposto = (rendaAtual * 0.25)
         
         if gastosSaude > 0:
             imposto += (gastosSaude * 0.5)
@@ -74,7 +74,7 @@ class Juridico(Contribuinte):
     
     def definicaoImposto(self, rendaAtual, numeroFuncionarios):
         if numeroFuncionarios > 10:
-            imposto = (rendaAtual * 0.14) - rendaAtual
+            imposto = (rendaAtual * 0.14)
         else:
-            imposto = (rendaAtual * 0.16) - rendaAtual
+            imposto = (rendaAtual * 0.16)
         return(f"Imposto a pagar: R${imposto:.2f}")
