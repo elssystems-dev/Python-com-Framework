@@ -131,3 +131,39 @@ P:  Você apresenta um dado revelador: em empresas do passado, como a General El
 A.  O capital em nuvem que a Meta e o Google (proprietários do Instagram e do YouTube, respectivamente) utilizam para extrair rendimentos da nuvem é muito mais do que apenas máquinas, cabos de fibra óptica, etc.; trata-se, principalmente, de todas as publicações que os usuários carregam e dos efeitos de rede que essa massa de material produz (por exemplo, se você sai do Instagram, perde o acesso às publicações de outras pessoas e suas publicações se tornam invisíveis para elas). Todo o trabalho que os usuários dedicam às suas publicações contribui para o capital em nuvem da Meta e do Google. Mas esse trabalho é realizado, em sua maior parte, gratuitamente. Isso explica por que apenas uma pequena parcela da receita dessas empresas é destinada a salários.
 
 https://english.elpais.com/technology/2025-10-06/yanis-varoufakis-the-technolords-control-our-minds.html
+
+## Mapa de Carreiras
+
+Serviço gratuito do site vagas.com que demonstra trajetória profissional de diversas áreas
+
+https://www.vagas.com.br/mapa-de-carreiras/sobre
+
+## História das Estrelas
+
+É uma ferramenta, disponível principalmente como uma extensão do Chrome e um serviço web, que exibe o histórico de estrelas (stars) de um repositório no GitHub em um gráfico visual.
+
+https://www.star-history.com
+
+## GitHub - Commits Oficiais
+
+https://github.com/ElHopperCBR/Curso-Py-Senai2/tree/29b32f07e3747316a56d7d0bf6df17fb6cc9770b
+
+## CSS 
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+## Lorem Flickr
+
+É uma pequena biblioteca PHP para imagens de preenchimento que podem ser usadas em qualquer caso, seja na web ou em impressos, sobre praticamente qualquer assunto e em qualquer tamanho. É simples e gratuita.
+
+https://loremflickr.com
+
+## Serviço de imagens de exemplo simples, rápido e gratuito.
+
+https://placehold.co
+
+## Resultados da Pesquisa de Desenvolvedores Python de 2024
+
+As respostas foram coletadas em outubro e novembro de 2024, com a participação de mais de 30.000 desenvolvedores e entusiastas de Python de quase 200 países e regiões, que contribuíram para elucidar o estado atual da linguagem e seu ecossistema.
+
+https://lp.jetbrains.com/python-developers-survey-2024/?_cl=MTsxOzE7bU9pc1BpQ2lrNW1UbWtzeVI4ZmgxSlFqZUpxb2FpQXNxN3Z3YnA2bThnbDRGTTFGcFh1djVpM0Q3R285WkQ2Zjs=&authuser=4#general-python-usage
