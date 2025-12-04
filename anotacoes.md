@@ -73,3 +73,4 @@ class Neto(Filho):
 - django-admin startproject &lt;nome&gt; . 
 - python manage.py runserver
 - python manage.py startapp nome
+- python manage.py migrate

@@ -167,3 +167,10 @@ https://placehold.co
 As respostas foram coletadas em outubro e novembro de 2024, com a participação de mais de 30.000 desenvolvedores e entusiastas de Python de quase 200 países e regiões, que contribuíram para elucidar o estado atual da linguagem e seu ecossistema.
 
 https://lp.jetbrains.com/python-developers-survey-2024/?_cl=MTsxOzE7bU9pc1BpQ2lrNW1UbWtzeVI4ZmgxSlFqZUpxb2FpQXNxN3Z3YnA2bThnbDRGTTFGcFh1djVpM0Q3R285WkQ2Zjs=&authuser=4#general-python-usage
+
+## Pesquisa salarial de programadores 2025
+
+https://pesquisa.codigofonte.com.br/2025/linguagem/python
+
+## Solda Slug
+https://github.com/sombraSoft/solda-slug
