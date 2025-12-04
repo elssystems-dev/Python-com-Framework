@@ -1,7 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from receitas.fabrica.receitasFake import gen_fake_receita
+
 
 # Create your views here.
-a = 10
+a = "Senai"
+
 def home(request):
-    return render(request, "home.html", context={'nome': a})
+    return render(request, "page/home.html", context={'nome': a,'receitas': [gen_fake_receita() for _ in range(10)],})
+
+def receita(request):
+    return render(request, 'page/receita-view.html', context={'nome': a, 'receita': gen_fake_receita()})
